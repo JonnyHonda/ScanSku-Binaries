@@ -31,7 +31,7 @@ This JSON object can be converted to a QR code here https://www.barcodesinc.com/
 **Configuration features**
 *UploadEndPoint*:  This is the location that the application will send the scanned data to, the end point must be capable to receive a payload of application/json and must return a HTTP status code of 200 OK in order for the application to consider the data successfully sent.
   
-*RegexEndPoint*:  The application can use regular expressions to filter out unwanted scans. if you don't wish to use this feature sent the file on your RegexEndPpint to contain.
+*RegexEndPoint*:  The application can use regular expressions to filter out unwanted scans. if you don't wish to use this feature set the file on your RegexEndPoint to contain.
 
     [{
     "all": "/^*/gi"
