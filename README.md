@@ -79,7 +79,7 @@ The data is as a JSON  object, the HTTP headers will contain the following addit
 - content-type  application/json
 - the device serial number as x-scansku-serial-number
 - the batch number as x-scansku-batch
-- the user agent as Man-in-Van Handheld Device
+- the user agent as "ScanSKU Handheld Device"
 - the application token as x-scansku-api-key
 
 The JSON object will follow the following example
